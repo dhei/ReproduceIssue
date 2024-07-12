@@ -8,7 +8,11 @@
   },
   "dependencies": {
     "@projecta/general-core":"file:../vendor/projecta-general-core-1.0.0.tgz",
-    "@projecta/server-core": "file:../vendor/projecta-server-core-1.0.0.tgz"
+     "@projecta/server-core": "file:../vendor/projecta-server-core-1.0.0.tgz"
+  },
+  "overrides": {
+    "@projecta/logger": "file:./../vendor/projecta-logger-1.0.0.tgz",
+    "@projecta/cache": "file:./../vendor/projecta-cache-1.0.0.tgz"
   },
   "author": "",
   "license": "ISC"
